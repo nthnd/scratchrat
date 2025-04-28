@@ -1,10 +1,10 @@
-#+title: scratchrat
+# scratchrat
 
 Ultra minimal infinite scratch-pad for Linux.
 
-[file:./demo.png]
+![sample screen shot](demo.png)
 
-* Description
+## Description
 
 I've always wanted a really simple scratchpad program that has the following (anti-)features:
 
@@ -21,26 +21,26 @@ I've always wanted a really simple scratchpad program that has the following (an
   - not limited to a predetermined canvas size
 - Simple controls
   - Draw (Left click)
-  - Undo (=<c-z>=)
+  - Undo (`<c-z>`)
   - Zoom (scroll)
   - Pan (Right click and drag)
 
-* Usage
+## Usage
 
 Just run the program and use your mouse to draw.
 
-** Customization
+### Customization
 
 Edit the source and rebuild.
 
-* Building
+## Building
 
-** Nix
-Clone the repo and run =nix build=, or just =nix run github:nthnd/scratchrat=
+### Nix
+Clone the repo and run `nix build`, or just `nix run github:nthnd/scratchrat`
 
-** Without NIX
+### Without NIX
 1. Clone the repo.
 2. Make sure you have Raylib version > 5.0
-3. Run =make infiniscreen=
-4. Copy the =infiniscreen= binary somewhere into your =$PATH=
+3. Run `make infiniscreen`
+4. Copy the `infiniscreen` binary somewhere into your `$PATH`
 
