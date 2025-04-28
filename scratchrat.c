@@ -27,8 +27,8 @@
 
 const static Color DEFAULT_BG           = COLOR_FROM_U32(DEFAULT_BG_COLOR);
 const static Color DEFAULT_FG           = COLOR_FROM_U32(DEFAULT_FG_COLOR);
-const static unsigned char CURSOR_BMP[] = {
-#embed "cursor.bmp"
+const static unsigned char CURSOR_PNG[] = {
+#embed "cursor.png"
 };
 
 typedef struct Stroke {
@@ -104,7 +104,7 @@ int main(void)
         .zoom = 1.0,
     };
 
-    Image cursorImage       = LoadImageFromMemory("bmp", CURSOR_BMP, sizeof(CURSOR_BMP));
+    Image cursorImage       = LoadImageFromMemory(".png", CURSOR_PNG, sizeof(CURSOR_PNG));
     Texture2D cursorTexture = LoadTextureFromImage(cursorImage);
 
     RenderTexture2D target = LoadRenderTexture(GetScreenWidth(), GetScreenHeight());
