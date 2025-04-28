@@ -1,0 +1,6 @@
+.direnv/
+result
+.cache/
+scratchrat
+compile_commands.json
+*.o
