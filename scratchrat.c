@@ -12,8 +12,8 @@
 #define MAX_ZOOM              20
 #define PAN_SPEED             100
 #define FPS_CAP               60
-#define DEFAULT_FG_COLOR      0x282828FF
-#define DEFAULT_BG_COLOR      0xFBF1C7FF
+#define DEFAULT_BG_COLOR      0x282828FF
+#define DEFAULT_FG_COLOR      0xFBF1C7FF
 #define STROKE_RADIUS         3
 #define INIT_POINTS_CAPACITY  128
 #define INIT_STROKES_CAPACITY 32
