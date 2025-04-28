@@ -2,6 +2,8 @@
 
 Ultra minimal infinite scratch-pad for Linux.
 
+[file:./demo.png]
+
 * Description
 
 I've always wanted a really simple scratchpad program that has the following (anti-)features:
