@@ -41,6 +41,6 @@ Clone the repo and run `nix build`, or just `nix run github:nthnd/scratchrat`
 ### Without NIX
 1. Clone the repo.
 2. Make sure you have Raylib version > 5.0
-3. Run `make infiniscreen`
-4. Copy the `infiniscreen` binary somewhere into your `$PATH`
+3. Run `make scratchrat`
+4. Copy the `scratchrat` binary somewhere into your `$PATH`
 
